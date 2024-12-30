@@ -114,6 +114,8 @@ def main():
             pu_estimator = PUAdapter(classifier)
             pu_estimator.fit(X_train, Y_train)
 
+
+
             tree_H = []
             #print("**************************************************")
             for i, tree in enumerate(classifier.estimators_):
